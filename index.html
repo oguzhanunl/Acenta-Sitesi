@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyahat Acentası - Hayallerinizdeki Tatil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .cta-button {
+            background-color: #ff7b54;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff5733;
+            transform: scale(1.1);
+        }
+        nav {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff7b54;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 10%;
+            background-color: #f5f5f5;
+        }
+        .feature {
+            text-align: center;
+            max-width: 300px;
+        }
+        .feature img {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        .feature h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .feature p {
+            color: #666;
+        }
+        .testimonials {
+            background-color: #333;
+            color: white;
+            padding: 50px 10%;
+            text-align: center;
+        }
+        .testimonial {
+            margin-bottom: 30px;
+        }
+        .testimonial p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="rezervation.html">Rezervasyon</a>
+            <a href="gallery.html">Galeri</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <h1>Hayallerinizdeki Tatil</h1>
+        <p>Sizi hayallerinizdeki tatille buluşturuyoruz. Şimdi rezervasyon yapın!</p>
+        <button class="cta-button">Hemen Keşfet</button>
+    </header>
+    <section class="features">
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1529074963764-98f45c47344b?q=80&w=1786&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="Uçak">
+            <h3>Uygun Uçuşlar</h3>
+            <p>Her bütçeye uygun uçuş fırsatları.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Otel">
+            <h3>Lüks Oteller</h3>
+            <p>En iyi otel seçenekleriyle konforu yaşayın.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Macera">
+            <h3>Unutulmaz Maceralar</h3>
+            <p>Hayatınızın en heyecanlı tatilini planlayın.</p>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Misafirlerimiz Ne Diyor?</h2>
+        <div class="testimonial">
+            <p>"Hayatımın en güzel tatilini yaşadım! Her şey mükemmeldi."</p>
+            <span> - Merve Acar - </span>
+        </div>
+        <div class="testimonial">
+            <p>"Rezervasyon süreci çok kolaydı ve hizmet harikaydı. Teşekkürler!"</p>
+            <span> - Sude Uyduran - </span>
+        </div>
+        <div class="testimonial">
+            <p>"Spa ve masaj hizmeti çok iyiydi."</p>
+            <span> - Emir Toraman - </span>
+        </div>
+        <div class="testimonial">
+            <p>"Sekreter kız çok hoş ve iyiydi. Çok yardımcı oldu."</p>
+            <span> - Furkan Alnıaçık - </span>
+        </div>
+       
+    </section>
+    <footer>
+        <p>&copy; 2024 Seyahat Acentası. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

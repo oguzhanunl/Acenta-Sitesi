@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Seyahat Acentası</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1440778303588-435521a205bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff7b54;
+        }
+        .about-section {
+            padding: 50px 10%;
+            background-color: #f5f5f5;
+        }
+        .about-section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            text-align: justify;
+            color: #555;
+            line-height: 1.6;
+        }
+        .team-section {
+            padding: 50px 10%;
+            background-color: #fff;
+        }
+        .team-section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            text-align: center;
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .team-member p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="rezervation.html">Rezervasyon</a>
+            <a href="gallery.html">Galeri</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <h1>Hakkımızda</h1>
+    </header>
+    <section class="about-section">
+        <h2>Biz Kimiz?</h2>
+        <p>
+            Seyahat Acentası olarak, müşterilerimize unutulmaz seyahat deneyimleri sunmayı hedefliyoruz. Yılların tecrübesiyle, dünyanın dört bir yanındaki destinasyonlara uygun fiyatlı ve kaliteli hizmet sağlıyoruz. Misyonumuz, her bir müşterimizin hayallerindeki tatili gerçeğe dönüştürmektir. 
+        </p>
+        <p>
+            Güvenilir ortaklıklarımız ve uzman ekibimiz sayesinde, uçuş rezervasyonlarından otel konaklamalarına kadar her detayı sizin için düşünüyoruz. Çünkü sizin mutluluğunuz, bizim başarımızdır.
+        </p>
+    </section>
+    <section class="team-section">
+        <h2>Ekibimiz</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="https://media-otp1-1.cdn.whatsapp.net/v/t61.24694-24/424859172_845970907215242_301499198312612007_n.jpg?ccb=11-4&oh=01_Q5AaIEnTPqlLmq92BSRB1qIJwe7WFGogR706wCsxLo76s0z0&oe=67839FA3&_nc_sid=5e03e0&_nc_cat=102" alt="Ekibimizden biri">
+                <h3>Mehmet Can Alp</h3>
+                <p>Kurucu & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://media-otp1-1.cdn.whatsapp.net/v/t61.24694-24/438972575_1099825465021564_3757953718591493648_n.jpg?ccb=11-4&oh=01_Q5AaILbVeam5xoO3ndYH3MBwCGbF7zBbZFC_f44UMvxuWLek&oe=67800104&_nc_sid=5e03e0&_nc_cat=102" alt="Ekibimizden biri">
+                <h3>Sedat Bulut</h3>
+                <p>Pazarlama Müdürü</p>
+            </div>
+            <div class="team-member">
+                <img src="https://media-otp1-1.cdn.whatsapp.net/v/t61.24694-24/471182610_1668659527079494_28662510531919442_n.jpg?ccb=11-4&oh=01_Q5AaIA31kEmhJHbxH80uC9uze57WapZUQKvIVr99NbZxNPgQ&oe=677FDDA9&_nc_sid=5e03e0&_nc_cat=105" alt="Ekibimizden biri">
+                <h3>Ömer Çiçek</h3>
+                <p>Operasyon Uzmanı</p>
+            </div>
+            
+            
+    </section>
+    <footer>
+        <p>&copy; 2024 Seyahat Acentası. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
